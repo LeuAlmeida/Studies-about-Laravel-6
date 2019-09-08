@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('ola/{nome}', function($nome) {
-    echo "Olá! Seja bem vindo, " . $nome . "!";
-});
+
+/////////////////////////////////////
+// Criação de rotas com parâmetros //
+/////////////////////////////////////
+
+// Route::get('ola/{nome}', function($nome) {
+//     echo "Olá! Seja bem vindo, " . $nome . "!";
+// });
